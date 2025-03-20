@@ -1,0 +1,84 @@
+.container {
+    width: 100%;
+    justify-items: left !important;
+    background-color: #fff;
+    padding: 16px;
+}
+
+.header-back-button {
+    display: flex;
+    align-items: center;
+    justify-content: left !important;
+    background-color: #eeeff1;
+    width: 100%;
+    margin-top: 40px;
+    box-sizing: border-box;
+    gap: 8px;
+}
+
+.detail-peminjaman {
+    /* border: 1px solid #ccc;   Batas luar seperti card */
+    border-radius: 8px;
+    margin: 16px;             /* Jarak luar ke sisi halaman */
+    padding: 16px;            /* Ruang dalam */
+}
+
+.detail-info {
+    display: flex;            /* Foto & teks sejajar horizontal */
+    align-items: flex-start;  /* Rata atas */
+    gap: 24px;                /* Jarak horizontal antara foto & teks */
+}
+
+.profile-pic {
+    width: 150px;
+    height: 220px;
+    background-color: #ccc;   /* Placeholder abu-abu */
+    border-radius: 16px;      /* Sudut melengkung */
+    flex-shrink: 0;           /* Supaya fotonya tidak mengecil */
+}
+
+.peminjam-text {
+    flex: 1;                  /* Isi sisa ruang di samping foto */
+}
+
+.row {
+    margin-bottom: 8px;       /* Spasi bawah sebelum <hr> */
+}
+
+.label {
+    font-size: 14px;
+    color: #999;              /* Warna teks label lebih pucat */
+    margin-bottom: 4px;       /* Spasi antara label & value */
+}
+
+.value {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 4px;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #000;  /* Garis tipis hitam */
+    margin: 0 0 16px 0;          /* Spasi bawah 16px, atas 0 */
+}
+  
+
+.strong-dim {
+    opacity: 20% !important;
+}
+
+#p-header {
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 11px;
+}
+
+#back-button {
+    background: none;
+    border: none;
+    margin-right: 20px;
+    font-size: 45px;
+}
+
