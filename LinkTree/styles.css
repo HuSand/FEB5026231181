@@ -1,0 +1,41 @@
+
+body {
+    background-image: url('img/background-hindia-mobile.png');
+    background-attachment: fixed;
+    background-size: cover;
+    overflow-x: hidden;
+}
+
+.pill-zoom-hover {
+    transition: all 0.3s ease-in-out;
+}
+
+.pill-zoom-hover:hover {
+    transform: scale(1.01);
+    box-shadow: 0 6px 24px rgba(0, 0, 0, 0.1);
+}
+
+#profile-title {
+    color: #083170;
+}
+
+
+@media screen and (min-width: 768px) {
+    html {
+        /* Font Size */
+        --profileDescriptionFontSize: 16px;
+        --linkTextFontSize: 16px;
+        --headerFontSize: 20px;
+        --embedLinkTextFontSize: 16px;
+        --signupSubmitTextFontSize: 16px;
+        --linkHeaderFontSize: 16px;
+        --bannerFontSize: 16px;
+
+    }
+    
+    body {
+        background-image: url('img/background-hindia-dekstop.png');
+        background-size: cover;
+        max-width: 200%;
+    }
+}
