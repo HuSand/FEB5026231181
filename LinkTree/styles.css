@@ -1,9 +1,18 @@
+html {
+    font-family:Inter,sans-serif;
+}
+
 
 body {
     background-image: url('img/background-hindia-mobile.png');
+    font-family:Inter,sans-serif;
     background-attachment: fixed;
     background-size: cover;
     overflow-x: hidden;
+}
+
+.capsule {
+    color: rgb(8, 49, 112);
 }
 
 .pill-zoom-hover {
@@ -17,6 +26,12 @@ body {
 
 #profile-title {
     color: #083170;
+}
+
+#top-buttons.hidden {
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.4s ease;
 }
 
 
