@@ -9,6 +9,9 @@ body {
     background-size: cover;
     overflow-x: hidden;
     scale: 100%;
+    margin: 0;
+    padding: 0;
+    height: 100%;
 }
 
 .capsule {
@@ -30,6 +33,16 @@ body {
 
 #profile-title {
     color: #083170;
+}
+
+#top-buttons {
+    position: sticky;
+    top: 15px;
+    padding: 12px;
+    max-width: 580px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #top-buttons.hidden {
@@ -119,6 +132,9 @@ body {
         background-image: url('img/background-hindia-dekstop.png');
         background-position: center;
         background-size: cover;
+        margin: 0;
+        padding: 0;
+        height: 100%;
     }
 }
 
@@ -129,6 +145,9 @@ body {
         background-size: 100% 137%;
         background-position: center;
         background-repeat: no-repeat;
+        margin: 0;
+        padding: 0;
+        height: 100%;
     }
 
     .modal-content {
