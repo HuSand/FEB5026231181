@@ -7,17 +7,22 @@ document.addEventListener('DOMContentLoaded', function () {
         const topButtonsBottom = topButtons.getBoundingClientRect().bottom;
         
         if (topButtonsBottom >= capsuleTop) {
-            // Kalau tombol bawahnya udah nyentuh atau ngelewati atas capsule
             topButtons.classList.add('hidden');
         } else {
-            // Aman, belum nyentuh capsule
             topButtons.classList.remove('hidden');
         }
         }
 
-    // Jalankan saat scroll dan resize
     window.addEventListener('scroll', checkScrollPosition);
     window.addEventListener('resize', checkScrollPosition);
-    checkScrollPosition(); // Jalankan sekali di awal
+    checkScrollPosition();
 });
-  
+
+const list = document.querySelector('.social-list');
+document.querySelector('.scroll-right').addEventListener('click', () => {
+  list.scrollBy({ left: 80, behavior: 'smooth' });
+});
+document.querySelector('.scroll-left').addEventListener('click', () => {
+  list.scrollBy({ left: -80, behavior: 'smooth' });
+});
+
