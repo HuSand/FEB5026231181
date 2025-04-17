@@ -18,7 +18,6 @@ document.addEventListener('DOMContentLoaded', function () {
     checkScrollPosition();
 });
 
-
 const list = document.querySelector('.social-list');
 document.querySelector('.scroll-right').addEventListener('click', () => {
   list.scrollBy({ left: 80, behavior: 'smooth' });
